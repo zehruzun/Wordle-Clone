@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(23, 23, 23);
+}
+
+.gameBoard {
+    height: 100vh;
+    width: 40%;
+    background-color: rgb(23, 23, 23);
+    margin: auto;
+    margin-top: 3%;
+}
+
+#wordBoard{
+    height: 50%;
+    width: 68%;
+    background-color: saddlebrown;
+    margin: auto;
+}
+
+.keyCodeBoard{
+    margin-top: 1%;
+    height: 49%;
+    width: 91.45%; 
+}
+
+.tile{
+    width: 90px;
+    height: 90px;
+    border: 2px solid rgb(23, 23, 23);
+
+    font-size: 35px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    float: left;
+}
+
+.keyCode{
+    width: 75px;
+    height: 75px;
+    border: 2px solid rgb(23, 23, 23);
+
+    font-size: 35px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(244, 254, 40);
+    float: left;
+}
+
+.yellowBox{            
+    background-color: rgb(244, 254, 40);   
+}
+
+.greenBox{
+    background-color: rgb(34, 129, 64); 
+}
+
+.blackBox{
+    background-color: rgb(85, 85, 85);
+}
